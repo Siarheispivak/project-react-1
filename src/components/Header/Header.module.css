@@ -1,9 +1,11 @@
 .header {
     grid-area: h;
-    background: -webkit-linear-gradient(180deg, #040d2c,#462a8b,#c505d6);
+
     background: linear-gradient(180deg, #040d2c,#462a8b,#c505d6);
-    border-radius: 10px;
+    background: #66FCF1;
+    border-radius: 5px;
 }
 .header img {
-    width: 20px;
+    width: 90px;
+    border-radius: 5px;
 }

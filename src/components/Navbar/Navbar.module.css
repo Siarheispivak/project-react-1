@@ -1,9 +1,9 @@
 .nav {
     grid-area: n;
     background: -webkit-linear-gradient(294deg, #040d2c,#462a8b,#c505d6);
-    background: linear-gradient(294deg, #040d2c,#462a8b,#c505d6);
+    background: #45A29E;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 
 .item  {
