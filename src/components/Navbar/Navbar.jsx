@@ -2,7 +2,15 @@ import React from 'react';
 import s from './Navbar.module.css';
 import {NavLink} from "react-router-dom";
 
-const Navbar = () => {
+import Sidebar from "./SideBar/Sidebar";
+
+
+
+
+const Navbar = (props) => {
+
+let wallElements = props.state.sideBar.wallContacts.map(w => <Sidebar name={w.name} icon={w.icon} id={w.id} />)
+
     return (
         <nav className={s.nav}>
             <div className={s.item}>
@@ -20,7 +28,10 @@ const Navbar = () => {
             <div className={s.item}>
                 <NavLink to="/settings" className={ navData => navData.isActive ? s.active : s.item }>Settings</NavLink>
             </div>
-
+            <div className="contacts">
+                <h1>Friends</h1>
+                {wallElements}
+            </div>
         </nav>
     )
 

@@ -1,6 +1,7 @@
 .dialogs{
   display: grid;
-    grid-template-columns: 2fr 10fr;
+    grid-template-columns: 2fr 5fr 5fr;
+
 }
 
 .dialogsItems {
@@ -14,7 +15,17 @@
 
 .messages{
     padding: 10px;
+
+
 }
 .messages .message{
     color: white;
+}
+
+.dialog img{
+    width: 15px;
+    /*display:inline-block;*/
+}
+.messagesRight{
+    padding: 10px;
 }

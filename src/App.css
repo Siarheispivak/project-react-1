@@ -56,7 +56,7 @@
 }
 
 .app-wrapper-content {
-
+    max-width: 1000px;
     grid-area: c;
     background-color:#C5C6C7 ;
     border-radius: 5px;

@@ -1,0 +1,13 @@
+.wallFriends {
+    display: inline-block;
+    padding: 5px;
+    color: gold;
+}
+
+.wallFriendsPics img {
+    width: 40px;
+    border-radius: 20px;
+    display: block;
+
+
+}
