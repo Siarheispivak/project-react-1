@@ -1,4 +1,4 @@
-import message from "../components/Dialogs/Message/Message";
+import {rerenderEntireTree} from "../render";
 
 let state = {
 
@@ -55,6 +55,7 @@ export let addPost = (postMessage) => {
     };
 
     state.profilePage.posts.push(newPost);
+    rerenderEntireTree(state);
 }
 
 
